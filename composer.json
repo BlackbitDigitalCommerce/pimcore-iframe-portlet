@@ -1,0 +1,27 @@
+{
+  "name": "blackbit/iframe-portlet-bundle",
+  "description": "Create portlet with iframe",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "type": "pimcore-bundle",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Blackbit digital Commerce GmbH",
+      "email": "info@blackbit.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Blackbit\\BlackbitIframePortletBundle\\": "",
+      "": "fallback/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Blackbit\\BlackbitIframePortletBundle\\BlackbitIframePortletBundle"
+      ]
+    }
+  }
+}
