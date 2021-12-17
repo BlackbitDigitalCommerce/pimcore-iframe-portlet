@@ -48,6 +48,7 @@ pimcore.layout.portlets.BlackbitIframePortletBundle = Class.create(pimcore.layou
             title: this.getName(),
             iconCls: this.getIcon(),
             layout: "fit",
+            height: 650,
         }));
 
         if (this.config?.sourceUrl) {
@@ -73,7 +74,7 @@ pimcore.layout.portlets.BlackbitIframePortletBundle = Class.create(pimcore.layou
             name: "sourceUrl",
             fieldLabel: t('BlackbitIframePortletBundle_label_for_url'),
             width: 500,
-            value: this.config.sourceUrl
+            value: this.config?.sourceUrl || ''
         });
 
         var win = new Ext.Window({
