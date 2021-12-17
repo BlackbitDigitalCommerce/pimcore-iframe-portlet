@@ -49,15 +49,19 @@ pimcore.layout.portlets.BlackbitIframePortletBundle = Class.create(pimcore.layou
             iconCls: this.getIcon(),
             layout: "fit",
         }));
-        this.layout.add({
-            xtype: 'box',
-            autoEl: {
-                tag: 'iframe',
-                src: this.config.sourceUrl,
-                width: 640,
-                height: 480
-            }
-        });
+
+        if (this.config?.sourceUrl) {
+            this.layout.add({
+                xtype: 'box',
+                autoEl: {
+                    tag: 'iframe',
+                    src: this.config.sourceUrl,
+                    width: 640,
+                    height: 480
+                }
+            });
+        }
+
         this.layout.portletId = portletId;
         return this.layout;
     },
