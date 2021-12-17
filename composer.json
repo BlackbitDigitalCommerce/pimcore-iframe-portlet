@@ -4,7 +4,6 @@
   "minimum-stability": "stable",
   "license": "GPL-3.0-or-later",
   "type": "pimcore-bundle",
-  "version": "1.0.2",
   "authors": [
     {
       "name": "Blackbit digital Commerce GmbH",
