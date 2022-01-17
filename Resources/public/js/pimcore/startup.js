@@ -22,7 +22,7 @@ pimcore.layout.portlets.BlackbitIframePortletBundle = Class.create(pimcore.layou
     },
 
     getName: function () {
-        return 'BlackbitIframePortletBundle';
+        return t('BlackbitIframePortletBundle_portlet_name');
     },
 
     getIcon: function () {
