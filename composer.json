@@ -1,6 +1,6 @@
 {
   "name": "blackbit/iframe-portlet-bundle",
-  "description": "Create portlet with iframe",
+  "description": "Add portlets to embed websites to Pimcore dashboards",
   "minimum-stability": "stable",
   "license": "GPL-3.0-or-later",
   "type": "pimcore-bundle",
