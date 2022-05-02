@@ -2,7 +2,6 @@
   "name": "blackbit_digital_commerce/pimcore-iframe-portlet",
   "description": "Add portlets to embed websites to Pimcore dashboards",
   "minimum-stability": "stable",
-  "version": "1.0.4",
   "license": "GPL-3.0-or-later",
   "type": "pimcore-bundle",
   "homepage": "https://pimcore.blackbit.de",
