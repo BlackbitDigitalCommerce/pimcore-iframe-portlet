@@ -1,6 +1,10 @@
 # Iframe Portlet Bundle
 
-With this bundle you can embed websites into your Pimcore dashboard. You can set the URL of the iframe in portlet settings.
+With this bundle you can embed websites into your Pimcore dashboard. 
+
+![Iframe in Pimcore dashboard portlet](doc/images/iframe-in-dashboard.png)
+
+The URL of the iframe is configurable in portlet settings.
 
 ## Installation
 
